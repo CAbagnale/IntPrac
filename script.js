@@ -24,7 +24,7 @@ function displayResults(responseJson) {
 }
 
 function watchForm() {
-    $('#form').submit(event => {
+    $('form').submit(event => {
         event.preventDefault();
         const artist = $('.js-query-artist').val();
         const title = $('.js-query-title').val();
