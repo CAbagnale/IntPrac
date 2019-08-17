@@ -1,0 +1,18 @@
+input {
+    display: block;
+    margin: 10px;
+}
+
+.container {
+    margin-top: 20px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+form {
+    margin-bottom: 20px;
+}

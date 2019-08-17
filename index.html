@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Country Facts</title>
+    <script
+          src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+        <h1>Song Lyrics Search</h1>
+        <form action="#" class="js-search-form">
+            <fieldset name="lyric-search">
+                <label for="search-artist">Artist:</label>
+                <input type="text" class="js-query-artist" id="search-artist" placeholder="Queen" required>
+                <label for="search-title">Song title:</label>
+                <input type="text" class="js-query-title" id="search-title" placeholder="Under Pressure" required>
+                <button type="submit">Search</button>
+            </fieldset>
+        </form>
+        <div class="hidden" id="results">
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
